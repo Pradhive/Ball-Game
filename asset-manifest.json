@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Ball-Game/static/css/main.7abcd920.css",
-    "main.js": "/Ball-Game/static/js/main.f2c3f2ff.js",
+    "main.js": "/Ball-Game/static/js/main.8cd93f9b.js",
     "static/media/arrow.png": "/Ball-Game/static/media/arrow.205f834dbfaed8e06700.png",
     "index.html": "/Ball-Game/index.html",
     "main.7abcd920.css.map": "/Ball-Game/static/css/main.7abcd920.css.map",
-    "main.f2c3f2ff.js.map": "/Ball-Game/static/js/main.f2c3f2ff.js.map"
+    "main.8cd93f9b.js.map": "/Ball-Game/static/js/main.8cd93f9b.js.map"
   },
   "entrypoints": [
     "static/css/main.7abcd920.css",
-    "static/js/main.f2c3f2ff.js"
+    "static/js/main.8cd93f9b.js"
   ]
 }
