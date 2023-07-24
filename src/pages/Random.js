@@ -2,6 +2,9 @@ import { curAction } from "../store";
 import "./Random.css"
 import { useDispatch ,useSelector} from "react-redux";
 import {useRef} from "react"
+import { Howl } from 'howler';
+import coinsound from "../sounds/coin.wav"
+import losesound from "../sounds/lose.wav"
 
 
 
@@ -20,34 +23,56 @@ function Random(){
       the = "randomdiv no"
     }
     const dispatch = useDispatch();
+
+    const playsound= ()=>{
+      const coin = new Howl({
+        src:coinsound
+       })
+       coin.play()
+    }
+    const decsound = ()=>{
+      const coin = new Howl({
+        src:losesound
+       })
+       coin.play()
+    }
    
    const ball1 = () =>{
      dispatch(curAction.plus5())
+     playsound()
    }
    const ball2 = () => {
      dispatch(curAction.plus10());
+     playsound()
    };
    const ball3 = () => {
      dispatch(curAction.sub5());
+     decsound()
    };
    const ball4 = () => {
      dispatch(curAction.sub10());
+     decsound()
    };
    const ball5 = () => {
      dispatch(curAction.mul2());
+     playsound()
    };
    const ball6 = () => {
     dispatch(curAction.mul3());
+    decsound()
   };
   const ball7 = () => {
     dispatch(curAction.div2());
+    playsound()
   };
   const ball8 = () => {
     dispatch(curAction.div3());
+    playsound()
 
   };
   const ball9 = () => {
     dispatch(curAction.add50());
+    playsound()
 
   };
 

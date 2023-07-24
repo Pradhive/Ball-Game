@@ -2,8 +2,16 @@ import { useSelector,useDispatch } from "react-redux";
 import {useEffect,useRef} from "react";
 import "./Point.css"
 import { curAction, highAction,randomAction, startAction} from "../store";
+import { Howl } from 'howler';
+import warning from "../sounds/warning.wav"
+import zero from "../sounds/zero.wav"
 
+import theme from "../sounds/theme.mp3"
 function Point(){
+
+    
+      
+
     const dispatch = useDispatch();
     const disable = useRef();
     const rand = useSelector(state => state.random.random)
@@ -18,6 +26,30 @@ function Point(){
         }
       }, [point, higher, dispatch]);
 
+      if(rand===12){
+        const id = setInterval(()=>{
+            const sound = new Howl({
+                src:warning
+            })
+            sound.play();
+        },2500)
+        setTimeout(()=>{
+            clearInterval(id)
+        },10000)
+        
+
+      }
+      if(rand === 0){
+        
+        const ze = new Howl({
+            src:zero
+        })
+        ze.play();
+      }
+      
+      
+      
+
     const score = ()=>{
         setTimeout(()=>{
             disable.current.disabled = false;
@@ -28,6 +60,12 @@ function Point(){
     }
 
     const start = () => {
+
+        const sound = new Howl({
+            src:theme , // Replace with the actual path to your sound file
+          });
+        
+          sound.play();
 
         disable.current.disabled = true
         dispatch(startAction.able())
