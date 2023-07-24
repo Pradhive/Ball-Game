@@ -1,4 +1,3 @@
-import "./Home.css"
 
 import Random from "./Random"
 import "./Home.css"

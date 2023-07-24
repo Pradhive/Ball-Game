@@ -1,7 +1,6 @@
 import { curAction } from "../store";
 import "./Random.css"
 import { useDispatch ,useSelector} from "react-redux";
-import {useRef} from "react"
 import { Howl } from 'howler';
 import coinsound from "../sounds/coin.wav"
 import losesound from "../sounds/lose.wav"
@@ -11,7 +10,6 @@ import losesound from "../sounds/lose.wav"
 
 function Random(){
 
-    const ballsdiv = useRef()
 
     let the = "randomdiv no"
     const button = useSelector((state) => state.start.isStart)
@@ -77,12 +75,9 @@ function Random(){
   };
 
 
-
-
-   
     return(
         <div className="hidden">
-          <div ref = {ballsdiv}  className = {the}  >
+          <div   className = {the}  >
                   <button onClick={ball1} className = "ball ball1 move-element1 ">+5</button>
                   <button onClick={ball2} className = "ball ball2 move-element2">+10</button>
                   <button onClick={ball3} className = "ball ball3 move-element3">-5</button>

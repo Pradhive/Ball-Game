@@ -2,7 +2,7 @@
 import { Fragment } from "react";
 import Login from "./pages/Login"
 import Home from "./pages/Home"
-import { UseSelector, useSelector } from "react-redux";
+import {  useSelector } from "react-redux";
 
 function App() {
 
