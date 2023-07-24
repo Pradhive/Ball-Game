@@ -1,0 +1,504 @@
+.randomdiv {
+  width: 80vw;
+  background-color: rgb(236, 206, 247);
+  height: 100vh;
+  animation: bo 1s ease-in-out;
+  
+}
+@keyframes bo {
+  0%,100%{
+    transform: translateX(0px);
+  }
+  50%{
+    transform: translateX(+1000px);
+  }
+}
+.hidden{
+  
+  background-color: rgb(236, 206, 247);
+  
+}
+.no{
+  display: none;
+}
+.ball1 {
+  background-color: rgb(250, 222, 81);
+  background-image: radial-gradient(circle, rgb(253, 227, 98), rgb(230, 184, 2));
+  position: fixed;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 10vh;
+  border-color: gold;
+  border-style: solid;
+}
+.ball2 {
+  background-color: rgb(250, 222, 81);
+  background-image: radial-gradient(circle, rgb(253, 227, 98), rgb(230, 184, 2));
+  position: fixed;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 10vh;
+  border-color: gold;
+  border-style: solid;
+}
+.ball3 {
+    background-color: rgb(220, 10, 244);
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border-style: solid;
+    border-color: rgb(140, 3, 138);
+}
+.ball4 {
+  background-color: rgb(220, 10, 244);
+  position: fixed;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 10vh;
+  border-style: solid;
+  border-color: rgb(140, 3, 138);
+  }
+  .ball5 {
+    background-color: rgb(250, 222, 81);
+    background-image: radial-gradient(circle, rgb(253, 227, 98), rgb(230, 184, 2));
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border-color: gold;
+    border-style: solid;
+  }
+  .ball6 {
+    background-color: rgb(220, 10, 244);
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border-style: solid;
+    border-color: rgb(140, 3, 138);
+  }
+  .ball7 {
+    background-color: rgb(250, 222, 81);
+    background-image: radial-gradient(circle, rgb(253, 227, 98), rgb(230, 184, 2));
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border-color: gold;
+    border-style: solid;
+  }
+  .ball8 {
+    background-color: rgb(250, 222, 81);
+    background-image: radial-gradient(circle, rgb(253, 227, 98), rgb(230, 184, 2));
+    position: fixed;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border-color: gold;
+    border-style: solid;
+  }
+
+@keyframes moveAnimation1 {
+  0%, 25%{
+    transform: translate(0px, 300px);
+  }
+  10%,55% {
+    transform: translate(145px, 505px);
+  }
+  20%,5% {
+    transform: translate(515px, 50px);
+  }
+  30%, 85% {
+    transform: translate(912px, 543px);
+  }
+  40% , 75%{
+    transform: translate(504px, 415px);
+  }
+  50%, 65% {
+    transform: translate(453px, 32px);
+  }
+  60% , 15%{
+    transform: translate(463px, 534px);
+  }
+  70%, 95% {
+    transform: translate(560px, 180px);
+  }
+  80% , 35%{
+    transform: translate(86px, 500px);
+  }
+  90% , 45%{
+    transform: translate(758px,504px);
+  }
+  100% {
+    transform: translate(0px, 300px);
+  }
+}
+@keyframes moveAnimation2 {
+    0% {
+      transform: translate(914px, 340px);
+    }
+    10% {
+      transform: translate(75px, 508px);
+    }
+    20% {
+      transform: translate(32px, 432px);
+    }
+    30% {
+      transform: translate(564px, 26px);
+    }
+    40% {
+      transform: translate(945px, 24px);
+    }
+    50% {
+      transform: translate(444px, 52px);
+    }
+    60% {
+      transform: translate(192px, 144px);
+    }
+    70% {
+      transform: translate(540px, 143px);
+    }
+    80% {
+      transform: translate(951px, 552px);
+    }
+    90% {
+      transform: translate(402px, 72px);
+    }
+    100% {
+      transform: translate(914px, 340px);
+    }
+  }
+  @keyframes moveAnimation3 {
+    0% {
+      transform: translate(623px, 56px);
+    }
+    10% {
+      transform: translate(405px, 362px);
+    }
+    20% {
+      transform: translate(732px, 491px);
+    }
+    30% {
+      transform: translate(619px, 13px);
+    }
+    40% {
+      transform: translate(891px, 268px);
+    }
+    50% {
+      transform: translate(792px, 397px);
+    }
+    60% {
+      transform: translate(82px, 320px);
+    }
+    70% {
+      transform: translate(562px, 134px);
+    }
+    80% {
+      transform: translate(749px, 268px);
+    }
+    90% {
+      transform: translate(857px, 62px);
+    }
+    100% {
+      transform: translate(623px, 56px);
+    }
+  }
+  @keyframes moveAnimation4 {
+    0% {
+      transform: translate(435px, 124px);
+    }
+    10% {
+      transform: translate(440px, 204px);
+    }
+    20% {
+      transform: translate(71px, 53px);
+    }
+    30% {
+      transform: translate(42px, 282px);
+    }
+    40% {
+      transform: translate(872px, 20px);
+    }
+    50% {
+      transform: translate(593px, 392px);
+    }
+    60% {
+      transform: translate(792px, 102px);
+    }
+    70% {
+      transform: translate(562px, 72px);
+    }
+    80% {
+      transform: translate(62px, 502px);
+    }
+    90% {
+      transform: translate(528px, 372px);
+    }
+    100% {
+      transform: translate(435px, 124px);
+    }
+  }
+  @keyframes moveAnimation5 {
+    0% {
+      transform: translate(23px, 500px);
+    }
+    10% {
+      transform: translate(37px, 249px);
+    }
+    20% {
+      transform: translate(772px, 491px);
+    }
+    30% {
+      transform: translate(65px, 304px);
+    }
+    40% {
+      transform: translate(482px, 68px);
+    }
+    50% {
+      transform: translate(762px, 62px);
+    }
+    60% {
+      transform: translate(29px, 402px);
+    }
+    70% {
+      transform: translate(362px, 372px);
+    }
+    80% {
+      transform: translate(682px, 504px);
+    }
+    90% {
+      transform: translate(552px, 112px);
+    }
+    100% {
+      transform: translate(23px, 502px);
+    }
+  }
+  @keyframes moveAnimation6 {
+    0% {
+      transform: translate(56px, 328px);
+    }
+    10% {
+      transform: translate(871px, 64px);
+    }
+    20% {
+      transform: translate(472px, 81px);
+    }
+    30% {
+      transform: translate(695px, 504px);
+    }
+    40% {
+      transform: translate(852px, 318px);
+    }
+    50% {
+      transform: translate(62px, 302px);
+    }
+    60% {
+      transform: translate(219px, 412px);
+    }
+    70% {
+      transform: translate(622px, 132px);
+    }
+    80% {
+      transform: translate(182px, 24px);
+    }
+    90% {
+      transform: translate(25px, 372px);
+    }
+    100% {
+      transform: translate(56px, 328px);
+    }
+  }
+  @keyframes moveAnimation7 {
+    0% {
+      transform: translate(519px, 92px);
+    }
+    10% {
+      transform: translate(337px, 462px);
+    }
+    20% {
+      transform: translate(77px, 81px);
+    }
+    30% {
+      transform: translate(165px, 254px);
+    }
+    40% {
+      transform: translate(12px, 508px);
+    }
+    50% {
+      transform: translate(557px, 6px);
+    }
+    60% {
+      transform: translate(219px, 425px);
+    }
+    70% {
+      transform: translate(612px, 329px);
+    }
+    80% {
+      transform: translate(582px, 454px);
+    }
+    90% {
+      transform: translate(152px, 212px);
+    }
+    100% {
+      transform: translate(519px, 92px);
+    }
+  }
+  @keyframes moveAnimation8 {
+    0% {
+      transform: translate(100px, 500px);
+    }
+    10% {
+      transform: translate(717px, 24px);
+    }
+    20% {
+      transform: translate(477px, 81px);
+    }
+    30% {
+      transform: translate(651px, 484px);
+    }
+    40% {
+      transform: translate(12px, 408px);
+    }
+    50% {
+      transform: translate(76px, 312px);
+    }
+    60% {
+      transform: translate(209px, 372px);
+    }
+    70% {
+      transform: translate(621px, 502px);
+    }
+    80% {
+      transform: translate(482px, 24px);
+    }
+    90% {
+      transform: translate(520px, 412px);
+    }
+    100% {
+      transform: translate(100px, 500px);
+    }
+  }
+  @keyframes moveAnimation9 {
+    0% {
+      transform: translate(10px, 500px);
+    }
+    10% {
+      transform: translate(77px, 240px);
+    }
+    20% {
+      transform: translate(907px, 81px);
+    }
+    30% {
+      transform: translate(651px, 84px);
+    }
+    40% {
+      transform: translate(12px, 408px);
+    }
+    50% {
+      transform: translate(706px, 312px);
+    }
+    60% {
+      transform: translate(209px, 72px);
+    }
+    70% {
+      transform: translate(921px, 502px);
+    }
+    80% {
+      transform: translate(402px, 240px);
+    }
+    90% {
+      transform: translate(520px, 312px);
+    }
+    100% {
+      transform: translate(10px, 500px);
+    }
+  }
+
+.move-element1 {
+  animation: moveAnimation1 30s infinite;
+}
+.move-element2 {
+  animation: moveAnimation2 20s infinite;
+ }
+ 
+.move-element3 {
+  animation: moveAnimation3 14s infinite;
+}
+.move-element4 {
+    animation: moveAnimation4 16s infinite;
+  }
+  .move-element5 {
+    animation: moveAnimation5 10s infinite;
+  }
+  .move-element6 {
+    animation: moveAnimation6 16s infinite;
+  }
+  .move-element7 {
+    animation: moveAnimation7 19s infinite;
+  }
+  .move-element8 {
+    animation: moveAnimation8 13s infinite; 
+  }
+  .move-element9 {
+    animation: moveAnimation9 15s infinite; 
+  }
+  .ball{
+    font-weight: 600;
+    color: white;
+    font-size: 3vh;
+  }
+  .ball1:active{
+    width: 12vh;
+    height: 12vh;
+    background-image: radial-gradient(rgb(89, 252, 89),green);
+  }
+  .ball2:active{
+    width: 12vh;
+    height: 12vh;
+    background-image: radial-gradient(rgb(89, 252, 89),green);
+  }
+  .ball3:active{
+    width: 12vh;
+    height: 12vh;
+    background-color: rgb(248, 40, 40);
+  }
+  .ball4:active{
+    width: 12vh;
+    height: 12vh;
+    background-color: rgb(248, 40, 40);
+  }
+  .ball5:active{
+    width: 12vh;
+    height: 12vh;
+    background-image: radial-gradient(rgb(89, 252, 89),green);
+  }
+  .ball6:active{
+    width: 12vh;
+    height: 12vh;
+    background-color: rgb(248, 40, 40);
+  }
+  .ball7:active{
+    width: 12vh;
+    height: 12vh;
+    background-image: radial-gradient(rgb(89, 252, 89),green);
+  }
+  .ball8:active{
+    width: 12vh;
+    height: 12vh;
+    background-image: radial-gradient(rgb(89, 252, 89),green);
+  }
+  .time{
+    color:white;
+    font-weight:600;
+  }
+  .btnlogo{
+    width: 6vh;
+  }
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(rgb(255, 255, 255),rgb(115, 194, 255));
+    border-color: rgb(16, 54, 244);
+  }
