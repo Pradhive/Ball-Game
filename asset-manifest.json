@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ball-Game/static/css/main.7abcd920.css",
-    "main.js": "/Ball-Game/static/js/main.00163f96.js",
+    "main.css": "/Ball-Game/static/css/main.fc779488.css",
+    "main.js": "/Ball-Game/static/js/main.c1c85326.js",
     "static/media/theme.mp3": "/Ball-Game/static/media/theme.81159d03950c480aa3ea.mp3",
     "static/media/lose.wav": "/Ball-Game/static/media/lose.3ee49855187ff677a6c6.wav",
     "static/media/zero.wav": "/Ball-Game/static/media/zero.4a1418d042a3367ad65f.wav",
@@ -9,11 +9,11 @@
     "static/media/coin.wav": "/Ball-Game/static/media/coin.babe7bfd65e8b4363f2d.wav",
     "static/media/arrow.png": "/Ball-Game/static/media/arrow.205f834dbfaed8e06700.png",
     "index.html": "/Ball-Game/index.html",
-    "main.7abcd920.css.map": "/Ball-Game/static/css/main.7abcd920.css.map",
-    "main.00163f96.js.map": "/Ball-Game/static/js/main.00163f96.js.map"
+    "main.fc779488.css.map": "/Ball-Game/static/css/main.fc779488.css.map",
+    "main.c1c85326.js.map": "/Ball-Game/static/js/main.c1c85326.js.map"
   },
   "entrypoints": [
-    "static/css/main.7abcd920.css",
-    "static/js/main.00163f96.js"
+    "static/css/main.fc779488.css",
+    "static/js/main.c1c85326.js"
   ]
 }
