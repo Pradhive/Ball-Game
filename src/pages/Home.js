@@ -13,7 +13,7 @@ function Home(){
             <div>
                 <Point/>
             </div>
-            <div class>
+            <div>
                 <Arrow/>
 
                 

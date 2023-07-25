@@ -103,8 +103,9 @@ function Point(){
                     Current Score
                 </h3>
             </div>
-            <div>
-                <h1 className = "time">{rand}</h1>
+            <div className="timediv">
+                <h1 className = "time">{rand} s</h1>
+                <h3 className="rem" >Time Remaining</h3>
             </div>
 
             <div>

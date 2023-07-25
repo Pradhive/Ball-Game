@@ -13,7 +13,6 @@ function Random(){
 
     let the = "randomdiv no"
     const button = useSelector((state) => state.start.isStart)
-    console.log(button)
 
     if (button) {
       the  = "randomdiv"

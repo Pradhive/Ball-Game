@@ -8,8 +8,6 @@ function App() {
 
 
   const login = useSelector((state)=>{
-
-    console.log(state)
     return state.authentication.loginState})
 
   return (
